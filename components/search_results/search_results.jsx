@@ -127,6 +127,7 @@ class SearchResults extends React.Component {
             windowWidth: Utils.windowWidth(),
             windowHeight: Utils.windowHeight(),
         };
+        this.scrollbars = React.createRef();
     }
 
     componentDidMount() {
